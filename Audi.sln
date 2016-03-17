@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CBAF2333-2CE1-4234-9FB8-3402086A36E5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{301F199F-1409-4295-95A9-0BC4B2FF8B6B}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+		NuGet.Config = NuGet.Config
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Audi", "Audi\Audi.csproj", "{F518552F-C9BD-4BF2-B1A7-8DC107B30202}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Audi.UnitTests", "Audi.UnitTests\Audi.UnitTests.csproj", "{DC86896A-67CC-42E4-96A4-CCC4C4698621}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F518552F-C9BD-4BF2-B1A7-8DC107B30202}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F518552F-C9BD-4BF2-B1A7-8DC107B30202}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F518552F-C9BD-4BF2-B1A7-8DC107B30202}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F518552F-C9BD-4BF2-B1A7-8DC107B30202}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC86896A-67CC-42E4-96A4-CCC4C4698621}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC86896A-67CC-42E4-96A4-CCC4C4698621}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC86896A-67CC-42E4-96A4-CCC4C4698621}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC86896A-67CC-42E4-96A4-CCC4C4698621}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F518552F-C9BD-4BF2-B1A7-8DC107B30202} = {CBAF2333-2CE1-4234-9FB8-3402086A36E5}
+		{DC86896A-67CC-42E4-96A4-CCC4C4698621} = {CBAF2333-2CE1-4234-9FB8-3402086A36E5}
+	EndGlobalSection
+EndGlobal
